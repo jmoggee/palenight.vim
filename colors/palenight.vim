@@ -429,6 +429,21 @@ call s:h("xmlEndTag", { "fg": s:red })
 call s:h("xmlTag", { "fg": s:red })
 call s:h("xmlTagName", { "fg": s:red })
 
+" Elixir
+call s:h("elixirAlias", { "fg": s:yellow })
+call s:h("elixirModuleDefine", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("elixirModuleDeclaration", { "fg": s:yellow })
+call s:h("elixirBlockDefinition", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("elixirDefine", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("elixirStructDefine", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("elixirPrivateDefine", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("elixirProtocolDefine", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("elixirExUnitMacro", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("elixirImplDefine", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("elixirAnonymousFunction", { "fg": s:purple })
+call s:h("elixirDocString", { "fg": s:comment_grey, "gui": "italic", "cterm": "italic" })
+call s:h("elixirDocTest", { "fg": s:comment_grey })
+
 " }}}
 
 " Plugin Highlighting {{{
